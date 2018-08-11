@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+*{
+  margin:0;
+  padding:0;
+}
+body{
+    text-align: center;
+    background: #9bb;
+    font-family: 'Baloo Bhaina';
+  }
+ 
+
+ 
+    .label{
+      width: 30%;
+      text-align: right;
+     }
+    .inp{
+      width:55%;
+    }
+    .inp1{
+      width:50%;
+     text-align:left;    
+    }
+  .row{
+    flex-direction:row;
+  
+    justify-content:space-around;
+  }
+    form{
+    width: 80%;
+       box-shadow: 2px 2px 10px #000;
+  }
+    
+  button{
+    width:100%;
+  }
+
+  
+  
+  .form-outer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+    background-color: white;
+    margin:0 auto;
+    max-width: 700px;
+    border-radius: 10px;
+    padding:10px;
+    padding-bottom: 45px;
+  
+  }
+  .row{
+    display:inline-flex;
+    margin: 5px;
+   
+    padding: 5px;
+    width: 100%;
+   }
+  
+  #survey-form{
+    display: flex;
+    align-items:center;
+    align-content:center;
+    flex-direction: column;
+  }
+  .list{
+      display:inline-flex;
+      width: 50%;
+      flex-direction: column;
+      text-align:left;
+      
+    } 
+    .des{
+        font-size: 2em;
+        
+        margin:-10px;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+
+    @media screen and (max-width:720px){
+      .label{
+        width: 100%;
+        text-align: left;
+      }
+    .row{
+      flex-direction:column;
+     justify-content: flex-start;
+     
+    }
+      form{
+      width: 90%;
+        box-shadow: 2px 2px 10px #000;
+        padding:25px;
+    }
+    .form-outer{
+      max-width:90%;
+    }
+    
+    #email{
+     
+      width: 100%;
+      
+    }
+      .inp1{
+        width:100%;
+        text-align:left;
+      }
+    
+    #name{
+       width: 100%;
+    }
+    #number{
+       width: 100%;
+    }
+    
+    #dropdown{
+       width: 100%;
+    
+    }
+     
+    }
